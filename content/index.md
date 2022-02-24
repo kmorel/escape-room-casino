@@ -3,4 +3,5 @@ title: "Lucky Strike Casino Opeartions"
 draft: false
 ---
 
-Hello world.
+![](images/casino-logo.png)
+
