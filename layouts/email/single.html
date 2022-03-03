@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<a href="/email/">&lt;-- Inbox</a>
+
+<p>
+  <b>From:</b> {{ .Params.from }}
+  <br/>
+  <b>To:</b> Don Calzone &lt;BigDCalzone@luckystrikecasino.cm&gt;
+  <br/>
+  <b>Subject:</b> {{ .Params.subject }}
+</p>
+
+{{ .Content }}
+
+{{ end }}
