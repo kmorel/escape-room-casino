@@ -1,6 +1,14 @@
 {{ define "main" }}
 
-<a href="/email/">&larr; Inbox</a>
+<p>
+  <a href="/email/">&larr; Inbox</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  {{ with .Param "forwardlink" }}
+    <a href="{{ . }}">Forward</a>
+  {{ else }}
+    <a href="/forwarding/noforward">Forward</a>
+  {{ end }}
+</p>
 
 <p>
   <b>From:</b> {{ .Params.from }}
