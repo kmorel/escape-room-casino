@@ -1,0 +1,10 @@
+
+<p>
+  <form action="{{ .Get "destination" }}">
+    <b>To:</b> <input id="to" name="to" required pattern="{{ .Get "match" }}" />
+    <br/>
+    <b>Subject:</b> FWD: {{ .Get "subject" }}
+    <br/>
+    <button>Send</button>
+  </form>
+</p>
