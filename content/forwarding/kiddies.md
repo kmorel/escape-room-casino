@@ -30,5 +30,3 @@ By the way, we need more muscle for our protection racket. More marks are
 refusing payment, and they need some "convincing."
 
 -- Tony
-
-[Back to Inbox](/email)
