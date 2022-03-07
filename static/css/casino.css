@@ -1,0 +1,43 @@
+body {
+  font-size: 150%;
+  font-family: muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  margin: auto;
+  width: 800px;
+  max-width: 100%;
+}
+
+#appendcell {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 10px;
+  height: 10px;
+  text-overflow: ellipsis;
+}
+
+table.emailtable {
+  table-layout: fixed;
+  font-size: 85%;
+  text-align: left;
+}
+
+table.emailtable td, table.emailtable th {
+  padding: 1px 10px;
+}
+
+table.emailtable thead th {
+  font-weight: bold;
+  border-bottom: 2px solid #444444;
+}
+
+table.emailtable tbody td {
+  border-bottom: 1px solid #ccc;
+}
+
+table.emailtable a {
+  color: #000000;
+  text-decoration: none;
+}
+
+table.emailtable a:hover {
+  background-color: #eee;
+}

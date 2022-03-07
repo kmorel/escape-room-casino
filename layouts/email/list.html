@@ -6,25 +6,29 @@
 
 <p>New email for user BigDCalzone@luckystrikecasino.cm.</p>
 
-<table width="800px" style="table-layout: fixed;">
-  <tr>
-    <th width="195px">From</th>
-    <th width="400px">Subject</th>
-  </tr>
-  {{ range .Pages }}
-  <tr>
-    <td id="appendcell">
-      <a href="{{ .RelPermalink }}">
-        {{ .Params.from }}
-      </a>
-    </td>
-    <td id="appendcell">
-      <a href="{{ .RelPermalink }}">
-        {{ .Params.subject }}
-      </a>
-    </td>
-  </tr>
-  {{ end }}
+<table class="emailtable" width="800px">
+  <thead>
+    <tr>
+      <th width="195px">From</th>
+      <th width="400px">Subject</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .Pages }}
+    <tr>
+      <td id="appendcell">
+	<a href="{{ .RelPermalink }}">
+          {{ .Params.from }}
+	</a>
+      </td>
+      <td id="appendcell">
+	<a href="{{ .RelPermalink }}">
+          {{ .Params.subject }}
+	</a>
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
 </table>
 
 {{ end }}
