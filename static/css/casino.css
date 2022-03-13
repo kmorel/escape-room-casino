@@ -33,12 +33,12 @@ table tbody td {
   border-bottom: 1px solid #ccc;
 }
 
-table a {
+a {
   color: #000000;
   text-decoration: none;
 }
 
-table a:hover {
+a:hover {
   background-color: #eee;
 }
 
