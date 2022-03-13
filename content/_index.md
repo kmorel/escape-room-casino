@@ -1,5 +1,5 @@
 ---
-title: "Lucky Strike Casino Opeartions"
+title: "Lucky Strike Casino Operations"
 draft: false
 ---
 
