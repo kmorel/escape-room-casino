@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://drmoron-escape-room-casino.netlify.app/"
 languageCode = "en-us"
 title = "Lucky Strike Casino Opeartions"
 theme = "accessible-minimalism"
